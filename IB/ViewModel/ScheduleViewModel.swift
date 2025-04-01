@@ -1,5 +1,6 @@
 // ViewModels/ScheduleViewModel.swift
 import Foundation
+import Combine
 
 class ScheduleViewModel: ObservableObject {
     @Published var schedules: [Schedule] = [

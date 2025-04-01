@@ -1,8 +1,9 @@
 // Models/Task.swift
+import Foundation
 import SwiftUI
 
 struct Task: Identifiable {
-    let id = UUID()
+    let id = UUID()  
     let title: String
     let time: String
     let status: TaskStatus

@@ -1,6 +1,8 @@
 // Models/Schedule.swift
+import Foundation
+
 struct Schedule: Identifiable {
-    let id = UUID()
+    let id = UUID()  
     let day: String
     let timeRange: String
     let title: String

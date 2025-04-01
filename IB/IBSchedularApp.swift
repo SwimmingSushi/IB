@@ -10,3 +10,8 @@ struct IBSchedulerApp: App {
         }
     }
 }
+
+
+#Preview {
+    MainView()
+}
